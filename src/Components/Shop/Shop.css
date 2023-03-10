@@ -1,0 +1,26 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 30px auto;
+    gap: 20px
+    ;
+
+}
+.cart-container {
+    background-color: #ff8f26;
+    min-height: 100vh;
+    padding: 30px;
+   
+
+}
+.cart-container h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}

@@ -1,0 +1,43 @@
+.card {
+  width: 400px;
+  border: 1px solid #b9b9b9;
+  border-radius: 8px;
+}
+.img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.info-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cars-sub-con {
+  min-height: 250px;
+}
+
+.addToCartButton {
+  width: 100%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0125em;
+  color: #0e161a;
+  padding: 15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 0;
+  background-color: #ffb977;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.addToCartButton:hover {
+    background-color: #ff8f26;
+
+}
